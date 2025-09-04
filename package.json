@@ -1,0 +1,43 @@
+{
+  "name": "albaraa-medani-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Albaraa Medani - Software Developer & Computer Engineering Student",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --host=localhost --open=/index.html",
+    "dev": "npx live-server --port=3000 --host=localhost --open=/index.html --watch=.",
+    "build": "echo 'Static website - no build process required'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "software-developer",
+    "computer-engineering",
+    "albaraa-medani",
+    "web-development",
+    "responsive-design"
+  ],
+  "author": {
+    "name": "Albaraa Medani",
+    "email": "albaraa.midani@gmail.com",
+    "url": "https://linkedin.com/in/albaraa-medani"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albaraa-medani/portfolio"
+  },
+  "homepage": "https://albaraa-medani.github.io/portfolio",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ]
+}
