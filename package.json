@@ -6,8 +6,9 @@
   "scripts": {
     "start": "npx live-server --port=3000 --host=localhost --open=/index.html",
     "dev": "npx live-server --port=3000 --host=localhost --open=/index.html --watch=.",
-    "build": "echo 'Static website - no build process required'",
-    "deploy": "echo 'Ready for deployment to any static hosting service'"
+    "build": "mkdir -p public && cp index.html styles.css script.js public/",
+    "deploy": "echo 'Ready for deployment to any static hosting service'",
+    "copy-files": "copy index.html public\\ && copy styles.css public\\ && copy script.js public\\"
   },
   "keywords": [
     "portfolio",
